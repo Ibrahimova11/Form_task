@@ -1,4 +1,4 @@
-var name=document.getElementById("name");
+var Name=document.getElementById("name");
 var surname=document.getElementById("surname");
 var age=document.getElementById("age");
 var nationality=document.getElementById("nationality");
@@ -6,7 +6,7 @@ var position=document.getElementById("position");
 var experience=document.getElementById("experience");
 var button=document.getElementById("my_button");
 
-var array=[dname,surname,age,nationality,position,experience]
+var array=[Name,surname,age,nationality,position,experience]
 console.log(array[5].value)
 console.log(experience.value)
 
